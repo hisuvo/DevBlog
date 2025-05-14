@@ -22,7 +22,6 @@ src/
 │ ├── about.jsx
 │ ├── contact.jsx
 │ └── NotFound.jsx → 404 page
-
 │
 │
 │ ├── dashboard/ → Only for logged-in users (writers/admin)
