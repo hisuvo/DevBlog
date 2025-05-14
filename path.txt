@@ -1,6 +1,17 @@
-### page path structerd
+### path structerd
 
 src/
+├── assets/                 → Images, fonts, icons, etc.
+│
+├── components/             → Reusable UI components
+│   ├── shared/             → Common layout components (Navbar, Footer)
+│   ├── blog/               → Blog-specific components (BlogCard, BlogList)
+│   └── auth/               → Form elements for login/register
+│
+├── hooks/                  → Custom hooks (useAuth, usePosts)
+│
+├── layouts/                → Page layouts (DashboardLayout, MainLayout)
+│
 ├── pages/
 │ ├── home/
 │ │ └── index.jsx → Homepage

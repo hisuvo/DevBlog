@@ -4,6 +4,6 @@ import "./index.css";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <h2>Hello World!</h2>
+    <h2 className="font-semibold text-blue-900">Hello World!</h2>
   </StrictMode>
 );
