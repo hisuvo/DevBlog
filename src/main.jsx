@@ -1,9 +1,10 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
+import Home from "./Pages/Home/Home";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <h2 className="font-semibold text-blue-900">Hello World!</h2>
+    <Home />
   </StrictMode>
 );
